@@ -1,0 +1,110 @@
+import { StyleSheet } from 'react-native';
+import { Button } from 'react-native-web';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 20,
+    backgroundColor: '#fff',
+    marginTop: 5,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#28a745',
+    marginBottom: 16,
+    textAlign: 'center',
+  },
+  subtitle: {
+    fontSize: 18,
+    fontWeight: '600',
+    marginVertical: 10,
+    color: '#28a745',
+  },
+  dropdown: {
+    marginBottom: 12,
+    borderRadius: 8,
+    borderColor: '#ccc',
+    paddingHorizontal: 10,
+    height: 50,
+    zIndex: 1000,
+  },
+  dropdownContainer: {
+    borderColor: '#ccc',
+    borderRadius: 8,
+    zIndex: 999,
+  },
+  imageButton: {
+    backgroundColor: '#28a745',
+    paddingVertical: 10,
+    borderRadius: 8,
+    alignItems: 'center',
+    marginVertical: 10,
+  },
+  imageButtonText: {
+    color: '#fff',
+    fontWeight: 'bold',
+  },
+  imagePreview: {
+    width: '100%',
+    height: 200,
+    borderRadius: 10,
+    marginBottom: 12,
+    marginTop: 4,
+  },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#f9f9f9',
+    borderRadius: 8,
+    padding: 10,
+    marginBottom: 10,
+    elevation: 2,
+  },
+  studentName: {
+    flex: 1,
+    fontSize: 16,
+    color: '#111827',
+  },
+  inputNota: {
+    width: 60,
+    height: 40,
+    borderWidth: 1,
+    borderColor: '#ccc',
+    borderRadius: 6,
+    textAlign: 'center',
+    fontSize: 16,
+    backgroundColor: '#fefefe',
+  },
+  submitButton: {
+    backgroundColor: '#28a745',
+    paddingVertical: 12,
+    borderRadius: 8,
+    marginTop: 20,
+    alignItems: 'center',
+  },
+  submitButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  button: {
+    backgroundColor: '#28a745',
+    paddingVertical: 12,
+    borderRadius: 8,
+    alignItems: 'center',
+    marginTop: 20,
+  },
+  registerButton: {
+    backgroundColor: '#28a745',
+    paddingVertical: 12,
+    borderRadius: 8,
+    alignItems: 'center',
+    marginTop: 10,
+    marginBottom: 20,
+  },
+  registerButtonText: {
+    color: '#fff',
+    fontWeight: 'bold',
+  },
+});
