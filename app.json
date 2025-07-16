@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Descubrir-app",
+    "slug": "descubrir-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app_icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.antoniche.proyectotesisapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a8176a78-8fda-4cb7-b0bb-776d6e5ef3eb"
+      }
+    }
+  }
+}
