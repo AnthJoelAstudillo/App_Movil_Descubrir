@@ -34,3 +34,4 @@ La app está estructurada para cubrir las necesidades de tres perfiles principal
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/AnthJoelAstudillo/App_Movil_Descubrir.git
+   ```
